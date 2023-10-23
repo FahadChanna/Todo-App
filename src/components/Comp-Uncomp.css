@@ -1,0 +1,44 @@
+.comp-uncomp {
+    display: flex;
+  }
+  
+  .completed-tasks {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .uncompleted-tasks {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-title {
+    flex: 1;
+  }
+  
+  .timestamp {
+    font-size: 0.8em;
+    color: #555;
+    margin-left: 10px;
+  }
+  
+  .task-checkbox {
+    margin-right: 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    margin-left: 10px;
+  }
+  
